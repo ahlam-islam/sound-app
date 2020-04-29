@@ -1,0 +1,124 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body
+{
+    background-color: #ffffb3;
+}
+
+
+.parent
+{
+    height: 100vh;
+    position: relative;
+}
+
+
+.content
+{
+    text-align: center;
+ height: 50%;
+}
+
+
+.content h1
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+.content p
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+    color: #999;
+    
+}
+
+.colors
+{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.colors .color1
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #561643;
+}
+
+.colors .color2
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #6c0e23;
+}
+.colors .color3
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #c42021;
+}
+.colors .color4
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #ea9e8d;
+}
+.colors .color5
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #3c1742;
+}
+.colors .color6
+{
+    width: 16.66%;
+    height: 100%;
+    background-color: #e3b505;
+}
+
+
+
+
+@keyframes jump
+{
+    0%
+    {
+        bottom: 0%;
+        left: 20%;
+    }
+
+    50%
+    {
+        bottom: 50%;
+        left: 50%;
+    }
+    100%
+    {
+        bottom: 0%;
+        left: 80%;
+    }
+}
+
+.bulle > div
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0%;
+}
+
+
